@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
+
 #set Chrome options
 def setting_opt():
     opt = Options()
@@ -9,6 +10,7 @@ def setting_opt():
     # keep browser open
     opt.add_experimental_option("detach", True)
     return opt
+
 
 #set specified chromedriver
 def setting_service():
